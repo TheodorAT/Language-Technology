@@ -8,11 +8,11 @@ MIT license: www.opensource.org/licenses/mit-license.php
 import os
 import re
 from collections import Counter
+CORPUS_PATH = os.getcwd() + "\\labs_2023\\corpus\\" 
+BIG_FILE_PATH = CORPUS_PATH + "spellchecker.big.txt"
 
 def words(text): return re.findall(r'\w+', text.lower())
 
-CORPUS_PATH = os.getcwd() + "\\labs_2023\\corpus\\" 
-BIG_FILE_PATH = CORPUS_PATH + "spellchecker.big.txt"
 WORDS = Counter(words(open(BIG_FILE_PATH, encoding="UTF-8").read()))
 
 def P(word, N=sum(WORDS.values())): 
