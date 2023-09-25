@@ -1,14 +1,3 @@
-sunny,hot,high,FALSE,no
-sunny,hot,high,TRUE,no
-overcast,hot,high,FALSE,yes
-rainy,mild,high,FALSE,yes
-rainy,cool,normal,FALSE,yes
-rainy,cool,normal,TRUE,no
-overcast,cool,normal,TRUE,yes
-sunny,mild,high,FALSE,no
-sunny,cool,normal,FALSE,yes
-rainy,mild,normal,FALSE,yes
-sunny,mild,normal,TRUE,yes
-overcast,mild,high,TRUE,yes
-overcast,hot,normal,FALSE,yes
-rainy,mild,high,TRUE,no
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd0f68d6546c4f7a4bfa54b81ae2d35a74c7f69cbdb1485ed2d52c8cb1ae9cb9
+size 389
